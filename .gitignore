@@ -1,0 +1,38 @@
+# Android / Gradle local state
+.gradle/
+.gradle-user-home/
+.android-user-home/
+**/build/
+.idea/
+*.iml
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Local SDK, Firebase and device credentials
+local.properties
+**/google-services.json
+**/secrets.h
+**/secrets.local.h
+*.jks
+*.keystore
+key.properties
+keystore.properties
+service-account*.json
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Arduino build and local tools
+**/.tmp-arduino-*/
+**/arduino-cli.exe
+.tools/
+.verificacion/
+
+# Logs and OS metadata
+*.log
+hs_err_pid*.log
+.DS_Store
+Thumbs.db
